@@ -54,6 +54,7 @@ public class App
         System.out.print("Enter the first number: ");
         arr[2] =  number3.nextInt();
 
+        // loops through array to find largest number
         for (int i = 0; i < arr.length; i++)
         {
             if (arr[i] > biggestNumber){
@@ -61,6 +62,7 @@ public class App
             }
         }
 
+        //output
         System.out.println("The largest number is " + biggestNumber + ".");
 
     }
